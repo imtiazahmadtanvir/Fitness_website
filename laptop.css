@@ -152,14 +152,12 @@
 
 }
 .banner-left{
-    /* margin-top:149px; */
     margin-top: 60px;
     align-items: left;
-    /* margin-bottom: 5%; */
-    
+     
 }
 .banner-title{
-    /* padding-top: 40px; */
+
     color: rgb(255, 255, 255);
     font-size: 68px;
     font-weight: 900;
@@ -167,7 +165,6 @@
     letter-spacing: 0%;
     text-align: left;
     margin-bottom:  28px;
-    margin-bottom: */
 }
 .banner-title-1{
     font-family: Inter;
@@ -179,7 +176,6 @@
 }
 .banner-description{
         color: rgb(93, 100, 105);
-        /* margin-bottom: 100px; */
     }
 .description{
         color: rgba(255, 255, 255, 0.5);    
@@ -300,14 +296,23 @@
     text-align: left;
 
 }
-.p-1{
-    color: whitesmoke;
+#p-1{
+    color: gray;   
     font-family: Inter;
     font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.5px;
-    text-align: left;
+
+}
+.p1{
+    color: gray;   
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    padding-left: 19px;
 
 }
 .section-2{
@@ -909,8 +914,8 @@ td{
     .free-550{
         width: 193px;
         height: 78px;
-        left: 289px;
-        top: 899px;
+        left: 299px;
+        top: 1159px;
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 12px;
         backdrop-filter: blur(20px);
@@ -928,7 +933,7 @@ td{
         width: 193px;
         height: 78px;
         left: 90px;
-        top: 1225px;
+        top: 1425px;
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 12px;
         backdrop-filter: blur(20px);
