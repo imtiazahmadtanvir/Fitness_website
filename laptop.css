@@ -957,7 +957,8 @@ p {
     ;
 }
 .pricing-card .price {
-    font-size: 34px;
+    font-size: 35px;
+    text-align: center;
     color: bold white ;
     margin-bottom: 30px;
 }
