@@ -264,7 +264,7 @@
     width: 206px;
     height: 96px;
     top: 555px;
-    right: 690px;
+    right: 580px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(20px);
@@ -775,7 +775,7 @@ td{
     color: rgb(230, 83, 60);
     font-family: Inter;
     font-style: italic;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 800;
     line-height: 120%;
     letter-spacing: 0%;
@@ -816,7 +816,7 @@ td{
 .footer2-description{
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
-    font-size: 27px;
+    font-size: 22px;
     font-weight: 400;
     line-height: 120%;
     letter-spacing: 0%;
@@ -838,7 +838,7 @@ td{
     margin-top: 38px;
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.3px;
@@ -855,7 +855,7 @@ td{
     color: white;
     text-align: center;
     font-family: Inter;
-    font-size: 38px;
+    font-size: 32px;
 
 }
 .Challange{
@@ -876,7 +876,7 @@ td{
     padding: 20px;
     color: white;
     border-radius: 10px;
-    width: 350px;
+    width: 320px;
     height: 300px;
     text-align: center;
 }
@@ -914,10 +914,82 @@ p {
     font-weight: bold;
 }
 
-.join-link:hover {
+/* .join-link:hover {
     text-decoration: underline;
+} */
+
+           /* pricing section  */
+
+.pricing {
+    /* text-align: center; */
+    padding-top: 50px;
+    font-family: Inter;
+
 }
 
+.pricing h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+}
+
+.pricing p {
+    font-size: 14px;
+    margin-bottom: 40px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+.pricing-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.pricing-card {
+    background-color: #222;
+    padding: 35px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.pricing-card h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color:skyblue;
+    ;
+}
+.pricing-card .price {
+    font-size: 34px;
+    color: bold white ;
+    margin-bottom: 30px;
+}
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.pricing-card ul li {
+    font-size: 16px;
+    margin: 13px 0;
+    color: white;
+}
+.pricing-card .btn {
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    text-decoration: none;
+    background-color: red;
+    color: whitesmoke;
+    padding: 10px 100px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 17px;
+
+}
 
 
 
@@ -1016,7 +1088,7 @@ p {
 
     }
                    /*section 2  */
-    .section-2{
+.section-2{
     padding-left: 15%;
     padding-right: 15%;
     margin-bottom: 40px;
@@ -1342,6 +1414,23 @@ p {
     font-family: Inter;
     font-size: 28px;
 
+}
+
+.pricing-cards {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+    padding-right: 20%%;
+    justify-content: center;
+    gap: 30px;
+}
+.pricing p {
+    font-size: 14px;
+    margin-bottom: 40px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: left;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 } 
